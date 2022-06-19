@@ -1,0 +1,30 @@
+name: graphql_test_flutter
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: 0.13.4
+  ferry: 0.10.4
+  gql: 0.13.0
+  gql_http_link:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  ferry_generator: 0.4.4
+  build_runner: 2.1.11
+
+
+flutter:
+  uses-material-design: true
